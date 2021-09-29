@@ -233,10 +233,10 @@ function transform(a, b, f) {
 }
 var square = (function (x) {
   return x * x;
-})(
+})
   //--------------27.---------------
 
-  function (a, b, condition) {
+  (function (a, b, condition) {
     if (condition(a, b)) {
       console.log(a);
     } else {
@@ -268,7 +268,6 @@ function calculate(a, b) {
   b = b - rb + ra;
 }
 calculate(123, 45);
-
 console.log(a, b);
 
 //-------------30.--------------
