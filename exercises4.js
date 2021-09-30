@@ -26,7 +26,7 @@ mondayTodo.sing.call(tuesdayToDo);
 
 var a =34;
 function transform(a){
-    a=a*2;
+ a=a*2;
 }
 transform(a);
 console.log(a);
