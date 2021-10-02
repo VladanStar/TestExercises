@@ -43,7 +43,7 @@ let result = s.charAt(3)
 console.log(result)
 
 let f = (array,n)=>(e=> e !=n)
-console.log
+
 console.log(f(['abc', 'u','e','abc','Abc']))
 
 let f = function(a){
